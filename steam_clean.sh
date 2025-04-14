@@ -11,6 +11,5 @@ for f in /dev/shm/u"$UID"*; do
 			continue
 		fi
 		rm -Iv "$file"
-		#echo "Deleted $file"
 	fi
 done;
